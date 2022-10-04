@@ -22,15 +22,18 @@
 
     .card {
       padding: 25px;
-      background-color: rgb(193, 240, 240);
+      background-color: rgb(1, 14, 14);
       font-size: 15px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: rgb(0, 0, 0);
+      color: #fff;
       font-weight: 700;
     }
 
-    .card:hover {
-      transform: scale(1.2);
+    .card-img-top:hover {
+      transform: scale(1.1);
+    }
+    .card-img-top:hover{
+      transition: all 1.5s ease;
     }
   </style>
 </head>
@@ -63,7 +66,7 @@
 
   <section id="main"></section>
 
-  <section id="text">Characters of Game Of Thrones</section>
+
 
   <!-- <section id="card"> -->
 
@@ -87,72 +90,87 @@
 
 
 
-
-  <div class="card-group">
-    <div class="card">
-      <img class="card-img-top" src="image/jon snow.jfif" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Jon Snow</h5>
-        <p class="card-text">He joins the Night’s Watch, following in the footsteps of his Uncle
-          Benjen. His direwolf is named Ghost.</p>
+  <div class="container">
+    <h2 class="py-3 text-center">Characters of Game Of Thrones</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img class="card-img-top" src="image/jon snow.jfif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Jon Snow</h5>
+            <p class="card-text">He joins the Night’s Watch, following in the footsteps of his Uncle
+              Benjen. His direwolf is named Ghost.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="https://i.postimg.cc/3NpBQ5Z5/220px-Robert-Baratheon-Profile-Mark-Addy.jpg"
-        alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Robert Baratheon
-        </h5>
-        <p class="card-text">
-          King of the Seven Kingdoms of Westeros and longtime friend of Ned Stark. Robert was engaged to Ned's sister,
-          Lyanna, whose abduction by Prince Rhaegar Targaryen incited Robert's uprising against the throne.</p>
-      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://i.postimg.cc/3NpBQ5Z5/220px-Robert-Baratheon-Profile-Mark-Addy.jpg"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Robert Baratheon
+            </h5>
+            <p class="card-text">
+              King of the Seven Kingdoms of Westeros and longtime friend of Ned Stark. Robert was engaged to Ned's
+              sister,
+              Lyanna, whose abduction by Prince Rhaegar Targaryen incited Robert's uprising against the throne.</p>
+          </div>
 
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="https://i.postimg.cc/qB8yrLTT/Tyrion-Lannister-Peter-Dinklage.jpg"
-        alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Tyrion Lannister</h5>
-        <p class="card-text">Called "The Imp," because of his small stature, he is the youngest son of Tywin Lannister,
-          the richest lord in the Seven Kingdoms and younger brother to Queen Cersei and Ser Jaime Lannister. What he
-          lacks in height, he makes up in wit.</p>
+        </div>
       </div>
+      <div class="col">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://i.postimg.cc/qB8yrLTT/Tyrion-Lannister-Peter-Dinklage.jpg"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Tyrion Lannister</h5>
+            <p class="card-text">Called "The Imp," because of his small stature, he is the youngest son of Tywin
+              Lannister,
+              the richest lord in the Seven Kingdoms and younger brother to Queen Cersei and Ser Jaime Lannister. What
+              he
+              lacks in height, he makes up in wit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://i.postimg.cc/W4v6gHjX/featured19.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Cersei Lannister</h5>
+            <p class="card-text">Queen of the Seven Kingdoms and wife of King Robert. Fiercely protective of her three
+              children, she also has an unusually tight connection to her twin brother, Jaime.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://i.postimg.cc/c4fmDnhD/i8-PWXebo-400x400.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Daenerys Targaryen
 
+            </h5>
+            <p class="card-text">
+              Princess of House Targaryen, living in exile in Essos with her brother, Viserys.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card -100">
+          <img class="card-img-top" src="https://i.postimg.cc/2yDq3VW6/S3-E9-Robb-Stark-main.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Robb Stark
+            </h5>
+            <p class="card-text">
+              The oldest of Ned and Cat's five children. His direwolf is named Grey Wind.</p>
+          </div>
+
+        </div>
+
+      </div>
     </div>
   </div>
 
-  <div class="card-group">
-    <div class="card">
-      <img class="card-img-top" src="https://i.postimg.cc/W4v6gHjX/featured19.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Cersei Lannister</h5>
-        <p class="card-text">Queen of the Seven Kingdoms and wife of King Robert. Fiercely protective of her three
-          children, she also has an unusually tight connection to her twin brother, Jaime.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="https://i.postimg.cc/c4fmDnhD/i8-PWXebo-400x400.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Daenerys Targaryen
-
-        </h5>
-        <p class="card-text">
-          Princess of House Targaryen, living in exile in Essos with her brother, Viserys.</p>
-      </div>
-
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="https://i.postimg.cc/2yDq3VW6/S3-E9-Robb-Stark-main.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Robb Stark
-        </h5>
-        <p class="card-text">
-          The oldest of Ned and Cat's five children. His direwolf is named Grey Wind.</p>
-      </div>
-
-    </div>
   </div>
 
 
