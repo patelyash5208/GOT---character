@@ -1,3 +1,26 @@
+
+.card-img-top {
+  height: 50vh;
+  width: 100%;
+}
+
+.card {
+  padding: 25px;
+  background-color: rgb(1, 14, 14);
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+.card-img-top:hover{
+  transition: all 1.5s ease;
+}
+
+
 #card {
   margin: 50px;
 }
@@ -8,3 +31,4 @@
   font-size: 50px;
   font-family: "Satisfy", cursive;
 }
+
