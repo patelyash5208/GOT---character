@@ -97,6 +97,7 @@
   transition: .4s;
 }
 
+
 input:checked + .slider {
   background-color: black;
 }
