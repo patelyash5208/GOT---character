@@ -120,4 +120,8 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+/* Added black color to about icon and text*/
+.aboutcolor{
+  color:black;
+}
 
