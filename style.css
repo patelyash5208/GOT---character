@@ -124,4 +124,6 @@ input:checked + .slider:before {
 .aboutcolor{
   color:black;
 }
-
+a:hover{
+  background-color:grey;
+}
