@@ -90,3 +90,7 @@ input:checked + .slider:before {
 .aboutcolor{
   color:black;
 }
+/*added hovering effect in navbar*/
+a:hover{
+  background-color:grey;
+}
