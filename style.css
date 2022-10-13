@@ -4,13 +4,16 @@
   width: 100%;
   z-index: 1;
   position:relative;
-  transition: top 0.2s;
+  top: 0;
+  transition: top 0.2s ease;
+  object-fit: cover;
+  object-position: top;
 
 }
 
 .card:hover .card-img-top{
   top:-10%;
-  transition: top 0.2s;
+  transition: top 0.2s ease;
 }
 
 .card:hover .card-body{
